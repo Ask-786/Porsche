@@ -1,0 +1,690 @@
+#header {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    font-family: 'Abel', sans-serif;
+
+}
+
+body {
+    margin: 0px;
+
+}
+
+
+
+#logo {
+    width: 150px;
+    height: 100;
+    float: left;
+    border: 1px;
+    border-color: black;
+    padding: 10px;
+}
+
+#SevenEighteen {
+    width: fit-content;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#NineEleven {
+    width: fit-content;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#Tycan {
+    width: fit-content;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#Panamera {
+    width: fit-content;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#Macan {
+    width: fit-content;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#Cayenne {
+    width: fit-content;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#More {
+    padding-top: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#Shop {
+    padding-top: 10px;
+    margin: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+#Dealer {
+    padding-top: 10px;
+    margin: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+    z-index: 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+    z-index: 0;
+
+}
+
+.swiper-wrapper {
+    position: absolute;
+    z-index: 0;
+}
+
+.overlay {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+}
+
+.models {
+    height: 60px;
+    padding-top: 30px;
+    margin-left: 7.5%;
+}
+
+.model-details img {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.model-details-individual {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 33.33333%;
+}
+
+.model-name {
+    font-size: xx-large;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    padding-left: 30px;
+    font-weight: 700;
+
+}
+
+.amount {
+    position: absolute;
+    color: white;
+    padding-left: 30px;
+    font-size: large;
+    font-weight: 650;
+    font-family: 'Abel', sans-serif;
+    padding-top: 55px;
+}
+
+
+.buildyourowndiv {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 320px;
+    z-index: 1;
+}
+
+.buildyourownbutt {
+    font-family: 'Abel', sans-serif;
+    font-size: medium;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.buildyourownbutt:hover {
+    color: white;
+    background-color: red;
+}
+
+.allmodelsdiv {
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 220px;
+
+}
+
+.allmodelsbutt {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px;
+    border-style: outset;
+    border-color: white;
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Abel', sans-serif;
+    color: white;
+
+}
+
+.allmodelsbutt:hover {
+    color: red;
+    border-color: red;
+
+}
+
+.reminder {
+    margin-top: 800px;
+    height: 20px;
+    width: 100%;
+}
+
+.findporsce {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.findporsceinner {
+
+    width: fit-content;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.innerheader {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#findporscheheadertext {
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.innerphotos {
+    width: 33.3333%;
+    height: 80%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.innerphotos img {
+    width: 448px;
+    height: 252px;
+    margin: 0 auto;
+}
+
+.innerbutton {
+    height: 50px;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(81, 78, 78);
+    border: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.innerbutton:hover {
+    background-color: red;
+}
+
+.shoppingtools {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innershoppingtools {
+    height: 90%;
+    width: 86.5%;
+    margin: 0 auto;
+}
+
+.shoppingtoolsheader {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.innershoppingtoolsphotos {
+    margin-top: 15px;
+    display: flex;
+    overflow: hidden;
+}
+
+.innershoppingtoolsphotos div {
+    height: 295px;
+}
+
+
+
+.shoppingphotos1 {
+    background-position: center;
+    background-image: url("/Pictures/Shopping Tools/porsche-normal\ \(3\).webp");
+    flex: 2;
+
+
+}
+
+.shoppingphotos2 {
+    background-position: center;
+    background-image: url("/Pictures/Shopping Tools/porsche-normal.webp");
+    flex: 1;
+}
+
+.shoppingphotos3 {
+    background-position: right;
+    background-image: url("/Pictures/Shopping Tools/porsche-normal (1).webp");
+    flex: 1;
+}
+
+.shoppingphotos4 {
+    background-position: center;
+    background-image: url("./Pictures/Shopping Tools/porsche-normal (2).webp");
+    flex: 1;
+}
+
+.shoppingtext {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shoppingtext:hover {
+    color: red;
+}
+
+.iconadtext {
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.social {
+    height: 850px;
+    width: 100%;
+    padding-top: 2.5%;
+}
+
+.innersocial {
+    width: 86.5%;
+    height: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.socialheader {
+    height: 50px;
+}
+
+.socialcollage {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto;
+    height: 80%;
+    margin-top: 30px;
+}
+
+.collageleft {
+    display: grid;
+    grid-template-rows: 66.66666% 33.3333%;
+    grid-gap: 5px;
+}
+
+.biggerleft {
+    background-image: url(./Pictures/Social/pexels-deane-bayas-9805740.jpg);
+    background-size: cover;
+}
+
+.smallerleft {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+.insidesmallerleft1 {
+    background-image: url(./Pictures/Social/pexels-jacob-moore-12565877.jpg);
+    background-size: cover;
+}
+
+.insidesmallerleft2 {
+    background-image: url(./Pictures/Social/pexels-jacob-moore-12565883.jpg);
+    background-size: cover;
+}
+
+.collagemiddle {
+    display: grid;
+    grid-template-rows: 33.3333% 66.66666%;
+    grid-gap: 5px;
+}
+
+.smallermiddle {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+.insidesmallermiddle1 {
+    background-image: url(./Pictures/Social/pexels-jacob-moore-12565915.jpg);
+    background-size: cover;
+}
+
+.insidesmallermiddle2 {
+    background-image: url(./Pictures/Social/pexels-jarne-aerts-7237997.jpg);
+    background-size: cover;
+}
+
+.biggermiddle {
+    background-image: url(./Pictures/Social/pexels-jacob-moore-12565905.jpg);
+    background-size: cover;
+}
+
+
+.collageright {
+    display: grid;
+    grid-template-rows: 66.66666% 33.3333%;
+    grid-gap: 5px;
+}
+
+.biggerright {
+    background-image: url(./Pictures/Social/pexels-mateusz-12499773.jpg);
+    background-size: cover;
+}
+
+.smallerright {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+.insidesmallerright1 {
+    background-image: url(./Pictures/Social/pexels-stephan-louis-12882894.jpg);
+    background-size: cover;
+}
+
+.insidesmallerright2 {
+    background-image: url(./Pictures/Social/pexels-stephan-louis-13086912.jpg);
+    background-size: cover;
+}
+
+.bottom-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Abel', sans-serif;
+    ;
+    font-size: 16px;
+}
+
+.socialbotttombutton {
+    height: 55px;
+    width: 150px;
+    border: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+
+}
+
+.socialbotttombutton:hover {
+    background-color: red;
+}
+
+.discover {
+    height: 400px;
+    width: 100%;
+    padding-top: 1.5%;
+}
+
+.inner-discover {
+    width: 86.5%;
+    margin: 0 auto;
+    height: 95%;
+}
+
+.discover-header {
+    height: 50px;
+}
+
+.discover-photos {
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+
+.discover-photos-individual img {
+    height: 254px;
+
+
+}
+
+.discover-photos-individual {
+    height: 300px;
+    cursor: pointer;
+
+}
+
+.discover-photos-individual img:hover {
+    border-bottom: 3px solid red;
+
+}
+
+.discover-bottom-text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Abel', sans-serif;
+}
+
+.discover-bottom-text:hover {
+    color: red;
+}
+
+.pfordivider {
+    border-bottom: 1px solid rgb(55, 55, 55);
+    width: 86.5%;
+    margin: 0 auto;
+}
+
+.otherinfos {
+    height: 550px;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.innerotherinfos {
+    width: 86.5%;
+    height: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.info-categories {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.categoryheader {
+    height: 55px;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infos {
+    height: 45px;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.infotext {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.infotext:hover {
+    color: red;
+}
+
+.sharepage {
+    height: 55px;
+    margin-top: 40px;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.sharepage:hover {
+    background-color: red;
+}
+
+.innersharepage {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 16px;
+}
+
+.shareplatforms {}
+
+.connectwithporschetext {
+    padding-left: 1px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Abel', sans-serif;
+    height: 30px;
+    font-weight: 999;
+    color: rgb(132, 131, 131);
+    bottom: 0;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.connectwithporscheplatforms {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connectwithporscheplatformbuttons {
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    text-decoration: none;
+}
+
+.icon-dimensions {
+    color: white;
+}
+
+.facebook1:hover {
+    background-color: rgb(55, 55, 115);
+
+}
+
+.youtube:hover {
+    background-color: red;
+
+}
+
+.pinterest:hover {
+    background-color: red;
+}
+
+.instagrambutt:hover {
+    background-color: rgb(55, 55, 115);
+}
+
+.linkedin:hover {
+    background-color: rgb(47, 124, 168);
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+}
+
+.innerfooter {
+    height: 80%;
+    width: 86.5%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.changecountrytext {
+    height: fit-content;
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+.regionselection {
+    height: 50px;
+    width: 330px;
+    background-color: rgb(81, 77, 77);
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;
+    color: white;
+    font-size: 18px;
+    border: 0;
+}
+.pfordivider1{
+    border-bottom: 1px solid rgb(109, 109, 109);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.creditsection{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
